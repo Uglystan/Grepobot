@@ -52,5 +52,4 @@ By default, both the Farming bot and the Building bot are active, but you can ch
 
 For run the just go in the file Grepobot and do:
 
-	```bash
 	python main.py
