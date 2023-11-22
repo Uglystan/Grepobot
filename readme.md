@@ -46,7 +46,7 @@ The `.env` file should contain the necessary information for the bot's automatic
 
 ## Select your automation
 
-By default, both the Farming bot and the Building bot are active, but you can choose to activate only one of them. To do this, simply go to the `main.py` file and comment out these lines for desactive Building bot (Add "#" at the beginning): `threadBuild = threading.Thread(target=cityData.buildThread, args=(browser, mutex,))` and `threadBuild.start()`. For desactive Farm bot comment : `threadFarmVillage = threading.Thread(target=farm.farmThread, args=(browser,mutex,))` and `threadFarmVillage.start()`.
+By default, both the Farming bot and the Building bot are active, but you can choose to activate only one of them. To do this, simply go to the `main.py` file and comment out these lines to disable Building bot (Add "#" at the beginning): `threadBuild = threading.Thread(target=cityData.buildThread, args=(browser, mutex,))` and `threadBuild.start()`. To disable Farm bot comment : `threadFarmVillage = threading.Thread(target=farm.farmThread, args=(browser,mutex,))` and `threadFarmVillage.start()`.
 
 ## Run the bot
 
