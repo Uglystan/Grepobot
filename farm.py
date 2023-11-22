@@ -1,8 +1,8 @@
 # My file
 import main
 import functionSel as selenium
-from selenium.common.exceptions import NoSuchElementException
 #Other file
+from selenium.common.exceptions import NoSuchElementException
 import random
 import time
 
