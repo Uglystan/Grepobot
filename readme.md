@@ -33,7 +33,7 @@ To customize the bot's configuration, use the `.env` file. This file is intended
 
 The `.env` file should contain the necessary information for the bot's automatic login and upgrading your city. This file should evolve as you found or colonize new cities. Make sure to add appropriate values for the following variables (If you want to see an example of the `.env` file, check the `env_example` file):
 
-	```plaintext
+	```
 	AIL="test@gmail.com" (Your mail for login to Grepolis)
 	MDP="password" (Your password for login to Grepolis)
 	WORLD="BASILETOPIA" (World where you want to use the bot)
